@@ -26,6 +26,10 @@ if [ "$size" = X-large ]; then
 echo " An X-Large pizza, no problem."
 fi
 
+echo ""
+
+sleep 3
+
 # Step 2 - Selecting the toppings
 
 echo "Please select toppings from any of our choices below."
