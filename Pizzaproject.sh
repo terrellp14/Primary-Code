@@ -33,8 +33,40 @@ sleep 3
 # Step 2 - Selecting the toppings
 
 echo "Please select toppings from any of our choices below."
-read -p "cheese, chicken, pepperoni, onions, pinapple, ham, bacon, sausage, mushroom: " toppings
+read -p "Cheese, Chicken, Pepperoni, Onions, Pinapple, Ham, Bacon, Sausage, Mushrooms: " toppings
 
-if [ "$toppings" = cheese ]; then
-echo "You have selected cheese"
+if [ "$toppings" = Cheese ]; then
+echo "You have selected Cheese"
+fi
+
+if [ "$toppings" = Chicken ]; then
+echo "You have selected Chicken"
+fi
+
+if [ "$toppings" = Pepperoni ]; then
+echo  "You have selected Pepperoni"
+fi
+
+if [ "$toppings" = Onions ]; then
+echo "You have selected Onions"
+fi
+
+if [ "$toppings" = Pinapple ]; then
+echo "You have selected Pinapple"
+fi
+
+if [ "$toppings" = Ham ]; then
+echo "You have selected Ham"
+fi
+
+if [ "$toppings" = Bacon ]; then
+echo "You have selected Bacon"
+fi
+
+if [ "$toppings" = Sasuage ]; then
+echo "You have selected Sasuage"
+fi
+
+if [ "$toppings" = Mushrooms ]; then
+echo "You have selected Mushrooms"
 fi
