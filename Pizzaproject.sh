@@ -70,3 +70,5 @@ fi
 if [ "$toppings" = Mushrooms ]; then
 echo "You have selected Mushrooms"
 fi
+
+echo "Thanks for shopping"
