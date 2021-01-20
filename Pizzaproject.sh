@@ -28,7 +28,7 @@ fi
 
 echo ""
 
-sleep 3
+
 
 # Step 2 - Selecting the toppings
 
